@@ -1,0 +1,304 @@
+/* Ultimate Stuff */
+#sidebar-navigation .tools{
+	padding: 2px 10px;
+	  text-align: center; 
+}
+#sidebar-navigation .tools ul {
+	list-style: none;
+	margin:none;
+	padding: 0;
+	clear: both;
+}
+#sidebar-navigation .tools ul li{
+	float: left;
+}
+#sidebar-navigation .tools ul li a{
+	display: inline-block;
+	padding: 1px 10px;
+	font-size: 18px;
+}
+#sidebar-navigation .tools ul li a i.pe{
+	
+}
+/* This is Premade CSS for application */
+.contact-box {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border:1px solid #e7eaec;
+    text-align: center;
+    border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.contact-box .image{
+	height: 120px;
+	padding: 10px 0 10px;
+	
+}
+.contact-box .image img{ 
+	border: 2px solid #fff;
+}
+.contact-box a .info{
+	display: block;
+}
+.contact-box .info{
+	
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;	
+}
+.contact-box .info h3{ 
+	margin: 0px 0 0;
+	padding: 15px 0 0;
+	font-weight: 700;
+	font-size: 16px;
+
+}
+.contact-box .info span{
+	font-size: 12px;
+	font-weight: 600;
+}
+.contact-box .about{
+	font-size: 13px;
+
+}
+.contact-box .company{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+
+}
+.contact-box .footer {
+	border-top: solid 1px #e7eaec;
+	padding: 10px 0;
+	
+}
+
+/* Chatbox Style */
+	.onchat {
+		height: 30px; overflow: auto;
+	}
+	.list_view {
+		width: 200px;
+		
+		background: #fff;
+		margin-top: 0px;
+		float: left;
+		border-right:solid 1px #eee;
+	}
+	.content_view {
+		margin-left: 200px;
+		margin-top: 0px;
+		position: relative;
+		height: 500px;
+		
+		padding: 20px;
+
+	}
+	.newchat {
+		padding: 15px;
+		background: #f9f9f9;
+	}
+	.chat-box {				
+		min-height: 400px;
+		
+		background: #fff;
+		font-size: 12px;
+	}
+	.chat-box-tools {
+		padding:5px 10px;
+		background: #f9f9f9;
+		
+	}	
+	.chat-box-tools h3{
+		font-size: 16px;
+		margin: 0; padding: 0;
+		
+	}
+	.chat-box-tools .tools{
+		
+		
+
+	}
+	.chat-box-tools a{
+		color: #eee;
+	}	
+	.chat-box-content {
+		height: 350px;
+		overflow: auto;
+		padding: 20px;
+	}		
+	.chat-box .chat-content{
+		margin-bottom: 10px;
+		margin-right: 20%;
+
+	}	
+	.chat-box .chat-content .avatar-small{
+		width: 60px;
+		float: left;
+	}
+	.chat-box .chat-content .message {
+				
+	}
+	.chat-box .chat-content .message .date {
+		font-size: 11px; color: #999;
+		padding-top:15px; 
+	}
+	.chat-box .chat-content.me{
+		text-align: right;
+		margin-left: 20%;
+		margin-right: 0;		
+		padding: 10px;
+		border-radius: 4px;
+	}
+	.chat-box .chat-content.me  .avatar-small{
+		float: right;
+	}
+	.chat-box .chat-content.me .message {
+		background: #f9f9f9;
+		float: right;
+		padding: 5px 15px;
+		border-radius: 4px;
+	}
+	.chat-box .textarea{
+		padding: 10px 20px;
+		border-top: solid 1px #eee;
+		background: #f9f9f9;
+	}	
+	.chat-active {
+		padding: 0px 0;
+		border-top: solid 1px #eee;
+		height: 350px;
+
+
+	}
+	.chat-active ul{ 
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+	}	
+	.chat-active ul li{
+		padding: 10px 15px;
+		border-bottom: solid 1px #eee;
+		cursor: pointer;
+		font-size: 12px;
+
+	} 
+
+/* Todo Plugins */
+	.basecamp {
+		font-size: 13px;
+	}
+
+	.basecamp .projects{
+	    background-color: #ffffff;
+	    border: 1px solid #e7eaec;
+	    border-radius: 6px 6px 0 0;
+	    margin-bottom: 20px;
+	    text-align: center;		
+	   
+	}
+	.basecamp .projects .info{
+		padding: 0 20px;
+	}
+	.basecamp .projects .info h3{
+		font-size: 18px;
+	}
+	.basecamp .projects .footers{
+		border-top: 1px solid #e7eaec;
+	    padding: 10px 0;
+	} 
+	.basecamp .projects .footers.summary{
+		
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.basecamp .projects .footers.summary span{
+		display: block;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.basecamp .projects .note{
+		padding: 10px 0;
+		height: 100px;
+		overflow: hidden;
+	}	
+	.basecamp .projects .teams{
+		padding: 10px 0;
+	}
+	.basecamp .projects .summary{
+		padding: 10px 0;
+	}
+	.basecamp .todo_sets {
+		
+		border: solid 1px #eee;
+		
+		margin-bottom: 20px;
+		background: #fff;
+		
+	}
+	.basecamp .todo_sets .title{
+		padding: 10px 20px; background: #f9f9f9;
+
+	}
+	.basecamp .todo_sets h3{
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		display: inline-block;
+	}
+	.basecamp .todo_sets .inner{
+		padding: 10px 20px;
+		height: 200px;
+		overflow: hidden;
+
+	}	
+	.basecamp .todo_sets .footer{
+		padding: 10px 20px; background: #f9f9f9;
+
+
+	}	
+	.basecamp  ul.todo_list {
+		margin: 20px 0 0 0;
+		padding: 0;
+		list-style: none;
+	}
+	.basecamp  ul.todo_list li{ 
+		padding: 2px 10px;
+		font-size: 13px;
+	}
+	.basecamp  .todos{ 
+		font-size: 13px;
+	}	
+
+	.basecamp  .todos ul{ 
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.basecamp  .todos ul li{ 
+		padding: 10px 10px;
+		background: #fff; 
+		margin-bottom: 1px;
+		font-size: 14px;
+	} 	
+	.basecamp  .todos ul li span.teams{ 
+		color: #877457; font-size: 11px;
+	} 
+	.basecamp_activity {
+		padding: 10px 10px 10px 50px;
+	}
+	.basecamp ul.activity-lists {
+		padding:0;
+		margin: 0;
+		list-style: none;
+	}
+	.basecamp ul.activity-lists li{
+		padding: 5px 0;
+
+	}
+	.basecamp ul.activity-lists li span.date{
+		font-size: 12px; color: #999;
+		margin-left: 40px;
+	}

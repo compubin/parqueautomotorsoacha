@@ -1,0 +1,22 @@
+{
+	"name"		:"CrudEngine Complete CRUD ",
+	"type"		:"native",
+	"note"		:"Add,Edit,View in new page , Native php sorting and pagination ",
+	"advance"	:"true",
+	"lang"		:"true",
+	"setting"	:{
+					
+					"sorting"		: "true",
+					"method"		: "true"
+				},
+	"access"	: {
+						"global"	: "Global" ,
+						"list"		: "View ",
+						"view"		: "Detail",
+						"create"	: "Create",
+						"update"	: "Update",
+						"delete"	: "Delete",
+						"export"	: "Export",
+						"print"		: "Print"
+				  }				
+}

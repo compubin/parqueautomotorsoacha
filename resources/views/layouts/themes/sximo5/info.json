@@ -1,0 +1,12 @@
+{
+	"name"		:"Sximo 5",
+	"folder"	:"sximo5",
+	"author"	:"Mango TM",
+	"template"	:{
+					
+					"Default Page"		: "page",
+					"Homepage"			: "homepage",
+					"Full Page"			: "fullpage",
+					"Backend Template"	: "backend"
+				}
+}

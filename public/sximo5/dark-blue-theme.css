@@ -1,0 +1,46 @@
+
+.navbar-top-links li a {
+	color: #fff;
+}
+.nav.navbar-top-links a.dropdown-toggle {
+	text-shadow:none;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	background: none !important;
+}
+a.minimalize-btn  {
+	color: #fff !important;
+}
+
+.navbar-fixed-top {
+	background: #fff;
+	border-bottom:1px solid #e7eaec
+}
+.navbar-header {
+	height: 58px;
+
+}
+#sidebar-navigation {
+	background: #364150 ;
+}
+#sidebar-navigation .logo {
+	background: #243646  ;
+}
+#sidebar-navigation .tools a{
+	color: #b4bcc8;
+}
+#sidemenu li.profile-sidebar {
+	background: #364150 ;
+}
+#sidemenu > li > a {
+	color: #b4bcc8;
+	font-weight: 600;
+	text-transform: none;
+	font-size: 13px;
+}
+#sidemenu > li > a:hover {
+	background: rgba(0,0,0,0.7); ;
+}
+#sidemenu  li.profile-sidebar  a:hover {
+	background: rgba(0,0,0,0); ;
+} 

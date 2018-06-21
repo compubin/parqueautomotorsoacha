@@ -1,0 +1,41 @@
+#sidebar-navigation .logo {
+	background: #fff;
+	border-bottom: solid 1px #fff;
+}
+#sidebar-navigation , #sidemenu li.profile-sidebar , .sidebar-right .header ,#wrapper{ 
+	background: #3D3D3D;
+}
+#sidebar-navigation .tools ul li a {
+	color: #fff;
+}
+#sidemenu > li > a {
+	
+	background:rgba(61, 61, 61, 0.9) !important;
+	color: #fff;
+}
+#sidemenu > li > a:hover, 
+.expanded-menu > li > a:focus
+{
+	background: #505050 !important;
+}
+#sidemenu .nav-second-level li a {
+	background: rgba(61, 61, 61, 0.9) none repeat scroll 0 0;
+	color: #fff;
+}
+#sidemenu .nav-second-level li a:hover, .nav-second-level li a:focus {
+	background: rgba(61, 61, 61, 0.7) !important;
+	color: #fff;
+}
+.navbar-mega-menu {
+	background-color: rgba(61, 61, 61, 0.8) !important;
+}
+ul.navbar-mega-menu li ul li a {
+	color: #fff;
+}
+ul.navbar-mega-menu li ul li a i {
+	background: #fff;
+	color: #3D3D3D ;
+}
+.modal-header {
+	background: #3D3D3D ;
+}
